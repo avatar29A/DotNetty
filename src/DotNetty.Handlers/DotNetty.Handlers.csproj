@@ -56,6 +56,8 @@
     <Compile Include="Timeout\WriteTimeoutException.cs" />
     <Compile Include="Timeout\ReadTimeoutHandler.cs" />
     <Compile Include="Timeout\WriteTimeoutHandler.cs" />
+    <Compile Include="Stream\ChunkedWriteHandler.cs" />
+    <Compile Include="Stream\ChunkedInput.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DotNetty.Buffers\DotNetty.Buffers.csproj">
@@ -88,5 +90,6 @@
   -->
   <ItemGroup>
     <Folder Include="Timeout\" />
+    <Folder Include="Stream\" />
   </ItemGroup>
 </Project>
